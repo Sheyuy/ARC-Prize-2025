@@ -1,30 +1,24 @@
-# ARC Prize 2025 – Abstract Reasoning Challenge
+﻿# ARC Prize 2025
 
-This repository contains my code, experiments, and research notes for the [ARC Prize 2025](https://www.kaggle.com/competitions/arc-prize-2025) competition on Kaggle.
+本仓库用于参加 [ARC Prize 2025](https://www.kaggle.com/competitions/arc-prize-2025) 竞赛。
 
-## 📘 Project Goals
-The ARC Prize aims to measure **general reasoning** and **abstract thinking** in AI systems.  
-This repo documents my journey to build a solver that can generalize across unseen reasoning tasks.
+## 📂 目录结构
+.
+├── data/ # 数据集（不上传到GitHub）
+├── notebooks/ # Jupyter notebooks (探索与实验)
+├── src/ # 源代码 (训练、评估、模型定义)
+├── experiments/ # 训练日志与模型输出
+├── submissions/ # 提交结果文件
+└── requirements.txt # 依赖文件
 
-## 📁 Repository Structure
-data/ # Local datasets (excluded from GitHub)
-notebooks/ # Jupyter/Kaggle notebooks
-src/ # Python source code (models, utils)
-experiments/ # Logs, configs, and results
-docs/ # Notes, papers, design ideas
+## 🚀 使用步骤
+1. 克隆仓库  
+   \\\ash
+   git clone git@github.com:Sheyuy/ARC-Prize-2025.git
+   \\\
+2. 创建虚拟环境并安装依赖  
+   \\\ash
+   pip install -r requirements.txt
+   \\\
+3. 启动 Jupyter Notebook 进行实验  
 
-## 🚀 Roadmap
-- [ ] Understand dataset format and manually solve sample tasks
-- [ ] Implement baseline rule-based model
-- [ ] Design modular "transform primitives"
-- [ ] Experiment with neural-symbolic hybrid approaches
-- [ ] Optimize for efficiency and generalization
-
-## 🧩 Tech Stack
-- Python 3.10+
-- NumPy, Pandas
-- PyTorch (optional)
-- Matplotlib (for visualization)
-
-## 📜 License
-Released under the MIT License.
